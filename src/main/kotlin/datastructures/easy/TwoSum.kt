@@ -1,7 +1,7 @@
 package datastructures.easy
 
 fun main() {
-    val solution = Solution()
+    val solution = TwoSum()
     val ans1 = solution.twoSum(intArrayOf(2, 7, 11, 15), 9)
     val ans2 = solution.twoSum(intArrayOf(3, 2, 4), 6)
     val ans3 = solution.twoSum(intArrayOf(3, 3), 6)
@@ -13,7 +13,7 @@ fun main() {
     ans3.forEach { print("$it") }
 }
 
-class Solution {
+class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         lateinit var ans: IntArray
         for ((indices, value) in nums.withIndex()) {
