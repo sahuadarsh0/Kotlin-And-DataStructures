@@ -2,4 +2,4 @@
 
 ## Algorithms
 
-See  [directory](docs/README.md).
+See  [directory](docs/index.md).
