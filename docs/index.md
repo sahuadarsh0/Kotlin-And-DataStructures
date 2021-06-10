@@ -1,9 +1,10 @@
 ## Algorithms
 
 ### Easy
-* [Two Sum](TwoSum.md)
-* [Buy Please](BuyPlease.md)
-* [Reverse Star Pattern](ReverseStarPattern.md)
+* [Two Sum](TwoSum.md) `LeetCode`
+* [Buy Please](BuyPlease.md) `CodeChef`
+* [Reverse Star Pattern](ReverseStarPattern.md) `CodeChef`
+* [Add Digits](AddDigits.md) `LeetCode`
 
 
 ## Kotlin Basics
