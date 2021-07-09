@@ -3,7 +3,7 @@ package datastructures.easy
 fun main() {
 
     val n = readLine()!!.toInt()
-    for (i in 0 until  n) {
+    for (i in 0 until n) {
         for (j in 0..i)
             print("*")
         println()

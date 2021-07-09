@@ -18,8 +18,8 @@ class TwoSum {
         lateinit var ans: IntArray
         for ((indices, value) in nums.withIndex()) {
             for (i in nums)
-                 if ((value + i) == target) {
-                     ans = intArrayOf(nums.indexOf(i),indices)
+                if ((value + i) == target) {
+                    ans = intArrayOf(nums.indexOf(i), indices)
                 }
         }
 

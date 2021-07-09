@@ -1,5 +1,5 @@
+#### `Easy` `CodeChef` Buy Please Problem
 
-#### `Easy` `CodeChef` Buy Please Problem 
 ``` 
 
 Chef went to a shop and buys a pens and b pencils. 
@@ -27,5 +27,5 @@ EXPLANATION:
 In the first example, total cost is (2 * 4 + 4 * 5) = 28.
 In the second example, total cost is (1 * 4 + 1 * 8) = 12.
 ```
- 
+
 ### [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BuyPlease.kt)

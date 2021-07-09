@@ -1,5 +1,5 @@
-
 #### `Easy` `CodeChef` Reverse Star Pattern Problem
+
 ```
 You're given a number N. Print the first N lines of the below-given pattern.
 
