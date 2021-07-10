@@ -11,6 +11,7 @@
 
 ### Basics
 
+* [Variables](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/Variables.kt)
 * [If Else](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/IfElse.kt)
 * [Operators](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/Operators.kt)
 
