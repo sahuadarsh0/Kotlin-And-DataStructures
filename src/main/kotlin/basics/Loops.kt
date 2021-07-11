@@ -12,6 +12,10 @@ fun main() {
         println(a[y])
     }
 
+    for ((index, value) in a.withIndex()) {
+        println("the element at $index is $value")
+    }
+
 
     while(i <= 10){
         print("$i  ")

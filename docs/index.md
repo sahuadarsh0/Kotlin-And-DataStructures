@@ -18,6 +18,7 @@
 * [When](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/When.kt)
 * [Operators](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/Operators.kt)
 * [Array](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/Array.kt)
+* [Loops](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/basics/Loops.kt)
 
 ### Object-Oriented Programming
 
