@@ -9,18 +9,21 @@ fun main() {
         println()
     }
 
-//    val solution = ReverseStarPattern()
-//    solution.reverseStarPattern(4)
-//    solution.reverseStarPattern(2)
+    /*
+    val solution = ReverseStarPattern()
+     solution.reverseStarPattern(4)
+     solution.reverseStarPattern(2)
+     */
 
 }
-//
-//class ReverseStarPattern {
-//    fun reverseStarPattern(num: Int) {
-//        for (i in 0 until  num) {
-//            for (j in 0..i)
-//                print("*")
-//            println()
-//        }
-//    }
-//}
+/*
+class ReverseStarPattern {
+    fun reverseStarPattern(num: Int) {
+        for (i in 0 until  num) {
+            for (j in 0..i)
+                print("*")
+            println()
+        }
+    }
+}
+*/

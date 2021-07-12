@@ -17,13 +17,13 @@ fun makeBurger(
     extraCheese: Boolean,
     makeItAMeal: Boolean,
     type: String
-){
+) {
     println("Size: $size")
     println("Extra Cheese: $extraCheese")
     println("Make it a Meal: $makeItAMeal")
     println("type: $type")
 }
-
+fun double(x: Int): Int = x * 2
 fun main() {
 //    rollDice()
 //    getSum(5, 5, 10, 20)
