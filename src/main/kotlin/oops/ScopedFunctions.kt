@@ -37,8 +37,8 @@ fun main() {
     println(x)
 
 //    let
-    val person = Student().let {
-        return@let "The name of the Person is: ${it.name}"
+    val person = Student().let { student ->
+        return@let "The name of the Person is: ${student.name}"
     }
     print(person)
 }
