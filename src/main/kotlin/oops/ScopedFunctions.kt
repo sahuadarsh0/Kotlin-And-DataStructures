@@ -1,6 +1,8 @@
 package oops
 
 /*
+Refer to https://blog.mindorks.com/using-scoped-functions-in-kotlin-let-run-with-also-apply
+
 Kotlin Scope Functions
 +----------+----------------+----------------+
 | Function | Context Object |  Return Value  |
@@ -36,11 +38,34 @@ fun main() {
     }
     println(x)
 
-//    let
-    val person = Student().let { student ->
-        return@let "The name of the Person is: ${student.name}"
+//    let ->    last line is the return statement
+//        ->    helpful in null-safety calls
+
+    val person1 = Student().let { student1 ->
+        return@let "The name of the Person is: ${student1.name}"
     }
-    print(person)
+    val person2 = Student().let {
+        "The name of the Person is: ${it.name}"
+    }
+    val person3 = Student().let {
+        it.name = "NewName"
+    }
+    val name1 = Student().name?.let {
+        "The name of the Person is: $it"
+    }
+    print(person1)
+    print(person2)
+    print(person3) //kotlin.Unit
+    print(name1)
+
+//    Run ->    last line is the return statement
+//        ->    helpful in null-safety calls
+//        ->    'this' cannot be renamed
+
+    val name2 = Student().name?.run {
+        "The name of the Person is: $this"
+    }
+    print(name2)
 }
 
 data class Student(var name: String = "", var age: Int = 18) {
