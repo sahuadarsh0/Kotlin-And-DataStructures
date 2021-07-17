@@ -30,13 +30,25 @@ Kotlin Scope Functions
 * */
 fun main() {
 
-//    apply
+//    apply ->    similar to run
+//          ->
+
+    val person: Student? = null
+    person?.apply {
+        name = "asdf"
+        displayInfo()
+    }
     val student = Student()
     val x = student.apply { // returns same object
         name = "Adarsh"
         age = 15
     }
     println(x)
+
+
+
+
+
 
 //    let ->    last line is the return statement
 //        ->    helpful in null-safety calls
@@ -49,6 +61,7 @@ fun main() {
     }
     val person3 = Student().let {
         it.name = "NewName"
+        2
     }
     val name1 = Student().name?.let {
         "The name of the Person is: $it"
@@ -58,14 +71,62 @@ fun main() {
     print(person3) //kotlin.Unit
     print(name1)
 
-//    Run ->    last line is the return statement
-//        ->    helpful in null-safety calls
+
+
+
+
+
+
+
+
+//    Run ->    similar to let
 //        ->    'this' cannot be renamed
 
     val name2 = Student().name?.run {
         "The name of the Person is: $this"
     }
     print(name2)
+
+
+
+
+
+
+
+
+
+
+//    With ->    similar to run
+//        ->
+
+    val person5 = with(Student()) {
+        return@with "The name of the Person is: ${this.name}"
+    }
+    print(person5)
+
+    val person6: Student? = null
+    with(person6) {
+        this?.name = "asdf"
+        this?.displayInfo()
+    }
+
+
+
+
+
+
+
+//    Also ->    similar to run
+//        ->
+
+    val name = Student().also { currentPerson ->
+        print("Current name is: ${currentPerson.name}\n")
+        currentPerson.name = "modifiedName"
+    }.run {
+        "Modified name is: $name\n"
+    }
+    print(name)
+
 }
 
 data class Student(var name: String = "", var age: Int = 18) {
