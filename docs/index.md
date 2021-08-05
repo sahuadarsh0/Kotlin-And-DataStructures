@@ -20,3 +20,4 @@
 * [Buy Please](BuyPlease.md) `CodeChef`
 * [Reverse Star Pattern](ReverseStarPattern.md) `CodeChef`
 * [Add Digits](AddDigits.md) `LeetCode`
+* [Alternative Square Pattern](AlternativeSquarePattern.md) `CodeChef`
