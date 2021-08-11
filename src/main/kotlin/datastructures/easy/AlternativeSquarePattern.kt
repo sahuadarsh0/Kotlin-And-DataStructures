@@ -2,9 +2,10 @@ package datastructures.easy
 
 fun main() {
 
-    asp(9)
+//    asp(9)
+//    asp(6)
     asp(6)
-    asp(4)
+    asp2(4)
 }
 
 fun asp(num: Int) {
@@ -23,4 +24,20 @@ fun asp(num: Int) {
         println()
     }
     println()
+}
+fun asp2(num: Int) {
+    val k = num*5
+    var line=0
+    for (i in 1..k) {
+        if (line%2==0){
+        print("${i}  ")}
+        else{
+            print("${line*10+6-i}  ")
+        }
+        if (i % 5 == 0) {
+            println()
+            line++
+        }
+
+    }
 }
