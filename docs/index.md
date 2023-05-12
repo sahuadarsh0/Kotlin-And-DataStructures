@@ -12,12 +12,14 @@
 
 <br/>
 
-## Algorithms
+## DS and Algorithms
 
 ### Easy
 
-* [Two Sum](TwoSum.md) `LeetCode`
-* [Buy Please](BuyPlease.md) `CodeChef`
-* [Reverse Star Pattern](ReverseStarPattern.md) `CodeChef`
-* [Add Digits](AddDigits.md) `LeetCode`
-* [Alternative Square Pattern](AlternativeSquarePattern.md) `CodeChef`
+| Problems                                                                                    | Solutions                                                                                                                                        |
+|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Two Sum](https://leetcode.com/problems/two-sum/) `LeetCode`                                | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/TwoSum.kt)                   |
+| [Buy Please](https://www.codechef.com/problems/BUYPLSE) `CodeChef`                          | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BuyPlease.kt)                |
+| [Reverse Star Pattern](https://www.codechef.com/CCSTART2/problems/REVSTRPT) `CodeChef`      | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/ReverseStarPattern.kt)       |
+| [Add Digits](https://leetcode.com/problems/add-digits/) `LeetCode`                          | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/AddDigits.kt)                |
+| [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) `CodeChef` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/AlternativeSquarePattern.kt) |
