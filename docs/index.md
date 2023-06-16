@@ -13,7 +13,6 @@
 <br/>
 
 ## DS and Algorithms
-
 ### Easy
 
 | Problems                                                                                     | Solutions                                                                                                                                        |
@@ -24,3 +23,4 @@
 | [Add Digits](https://leetcode.com/problems/add-digits/) `LeetCode`                           | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/AddDigits.kt)                |
 | [Alternative Square Pattern](https://www.codechef.com/CCSTART2/problems/SQALPAT) `CodeChef`  | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/AlternativeSquarePattern.kt) |
 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) `LeetCode` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/Running-sum-of-1d-array.kt)  |
+| [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) `LeetCode` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/RichestCustomerWealth.kt)    |
