@@ -31,5 +31,10 @@
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) `LeetCode`                                     | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/PalindromeNumber.kt)                |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) `LeetCode` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/RemoveDuplicatesFromSortedArray.kt) |
 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) `LeetCode`         | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BestTimetoBuyandSellStock.kt)       |
-| [Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) `LeetCode`    | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BestTimetoBuyandSellStock2.kt)      |
-| [Rotate Array](https://leetcode.com/problems/rotate-array/) `LeetCode`                                               | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/RotateArray.kt)                     |
+
+### Medium
+
+| Problems                                                                                                          | Solutions                                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) `LeetCode` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BestTimetoBuyandSellStock2.kt) |
+| [Rotate Array](https://leetcode.com/problems/rotate-array/) `LeetCode`                                            | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/RotateArray.kt)                |

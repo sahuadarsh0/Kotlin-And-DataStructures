@@ -1,4 +1,4 @@
-package datastructures.easy
+package datastructures.medium
 
 fun main() {
     val solution = BestTimetoBuyandSellStock2()
