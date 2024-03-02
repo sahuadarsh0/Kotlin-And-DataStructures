@@ -34,6 +34,7 @@
 | [Single Number](https://leetcode.com/problems/single-number/) `LeetCode`                                             | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/SingleNumber.kt)                    |
 | [Intersection of Two Arrays ](https://leetcode.com/problems/intersection-of-two-arrays/) `LeetCode`                  | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/IntersectionOfTwoArrays.kt)         |
 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) `LeetCode`             | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/IntersectionOfTwoArrays2.kt)        |
+| [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) `LeetCode`                     | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/SortedSquares.kt)                   |
 
 ### Medium
 
@@ -42,11 +43,10 @@
 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) `LeetCode` | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/BestTimetoBuyandSellStock2.kt) |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/) `LeetCode`                                             | [Solution](https://github.com/sahuadarsh0/Kotlin-And-DataStructures/blob/master/src/main/kotlin/datastructures/easy/RotateArray.kt)                |
 
-
-
 ### DSA Curated List
 
 Array:
+
 1. ~~Two Sum~~
 2. Container With Most Water
 3. ~~Best Time to Buy and Sell Stock~~
@@ -59,6 +59,7 @@ Array:
 10. Find All Numbers Disappeared in an Array
 
 String:
+
 1. Reverse String
 2. Valid Anagram
 3. Longest Palindromic Substring
@@ -71,6 +72,7 @@ String:
 10. ZigZag Conversion
 
 Linked List:
+
 1. Reverse Linked List
 2. Merge Two Sorted Lists
 3. Add Two Numbers
@@ -83,6 +85,7 @@ Linked List:
 10. LRU Cache
 
 Binary Tree:
+
 1. Maximum Depth of Binary Tree
 2. Invert Binary Tree
 3. Symmetric Tree
@@ -95,6 +98,7 @@ Binary Tree:
 10. Flatten Binary Tree to Linked List
 
 Dynamic Programming:
+
 1. Climbing Stairs
 2. Coin Change
 3. Longest Increasing Subsequence
@@ -107,6 +111,7 @@ Dynamic Programming:
 10. Best Time to Buy and Sell Stock
 
 Graph:
+
 1. Course Schedule
 2. Number of Islands
 3. Word Ladder
@@ -119,6 +124,7 @@ Graph:
 10. Graph Valid Tree
 
 Backtracking:
+
 1. Permutations
 2. Subsets
 3. Letter Combinations of a Phone Number
@@ -131,6 +137,7 @@ Backtracking:
 10. Restore IP Addresses
 
 Sorting and Searching:
+
 1. Merge Intervals
 2. Find First and Last Position of Element in Sorted Array
 3. Search in Rotated Sorted Array
@@ -143,6 +150,7 @@ Sorting and Searching:
 10. Find Minimum in Rotated Sorted Array
 
 Stack and Queue:
+
 1. Valid Parentheses
 2. Min Stack
 3. Implement Queue using Stacks
@@ -155,6 +163,7 @@ Stack and Queue:
 10. Simplify Path
 
 Greedy:
+
 1. Jump Game
 2. Container With Most Water
 3. Non-overlapping Intervals
