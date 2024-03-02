@@ -3,7 +3,7 @@ package datastructures.easy
 fun main() {
     val solution = TwoSum()
     val ans1 = solution.twoSum(intArrayOf(2, 7, 11, 15), 9)
-    val ans2 = solution.twoSum(intArrayOf(3, 2, 4), 6)
+    val ans2 = solution.twoSum(intArrayOf(2,5,5,11), 10)
     val ans3 = solution.twoSum(intArrayOf(3, 3), 6)
     print("ans1-> ")
     ans1.forEach { print("$it") }
@@ -15,14 +15,13 @@ fun main() {
 
 class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        lateinit var ans: IntArray
-        for ((indices, value) in nums.withIndex()) {
-            for (i in nums)
-                if ((value + i) == target) {
-                    ans = intArrayOf(nums.indexOf(i), indices)
+        for (i in nums.indices) {
+            for (j in i+1 until nums.size) {
+                if ((nums[i] + nums[j]) == target) {
+                    return intArrayOf(i, j)
                 }
+            }
         }
-
-        return ans
+        return intArrayOf()
     }
 }
